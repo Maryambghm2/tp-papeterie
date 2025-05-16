@@ -16,5 +16,11 @@ public class Stylo extends ArticleUnitaire {
     public void setCouleur(String couleur) {
         this.couleur = couleur;
     }
+
+
+
+    public static void main(String[] args) {
+        Stylo stylo = new Stylo(486572003, "Stylo", 2, "bleu");
+    }
 }
 

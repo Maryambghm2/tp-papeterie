@@ -26,5 +26,8 @@ public class ArticleUnitaire extends Article {
         this.prixUnitaire = prixUnitaire;
     }
 
+    public static void main(String[] args) {
+        ArticleUnitaire article1 = new ArticleUnitaire(486572003, "Stylo", 2);
+    }
 
 }
